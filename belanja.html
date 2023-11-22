@@ -26,6 +26,9 @@
     <link rel="stylesheet" href="assets/css/vendor/base.css">
     <link rel="stylesheet" href="assets/css/style.min.css">
 
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 
@@ -41,33 +44,25 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-sm-6 col-12">
                         <div class="header-top-dropdown">
-                            <div class="dropdown">
-                                <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Indonesia
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">English</a></li>
-                                    <li><a class="dropdown-item" href="#">Indonesia</a></li>
-                                </ul>
-                            </div>
-                            <div class="dropdown">
-                                <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    RP
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">RP</a></li>
-                                    <li><a class="dropdown-item" href="#">USD</a></li>
-                                </ul>
-                            </div>
+                            <span class="pe-3">
+                                <a href="tel:08123xxxxxx" target="_blank" class="link-secondary">
+                                    <i class="fa-solid fa-phone me-2"></i> 08123xxxxxx
+                                </a>
+                            </span>
+                            <span class="pe-3">
+                                <a href="mailto:yourmail@gmail.com" target="_blank" class="link-secondary">
+                                    <i class="fa-solid fa-envelope"></i> yourname@mail.com
+                                </a>
+                            </span>
+
+                            
                         </div>
                     </div>
                     <div class="col-lg-6 col-sm-6 col-12">
                         <div class="header-top-link">
                             <ul class="quick-link">
-                                <li><a href="sign-up.html">Daftar</a></li>
-                                <li><a href="sign-in.html">Masuk</a></li>
+                                <li style="padding: 8px;"><a href="#" class="fs-1"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li style="padding: 8px;"><a href="#" class="fs-1"><i class="fa-brands fa-facebook"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -99,77 +94,41 @@
                             <ul class="mainmenu">
                                 <li><a href="index.html">Beranda</a></li>
                                 <li><a href="belanja.html">Belanja</a></li>
-                                <li class="menu-item-has-children">
-                                    <a href="#">Halaman</a>
-                                    <ul class="axil-submenu">
-                                        <li><a href="wishlist.html">Daftar Suka</a></li>
-                                        <li><a href="cart.html">Keranjang</a></li>
-                                        <li><a href="checkout.html">Checkout</a></li>
-                                        <li><a href="my-account.html">Akun</a></li>
-                                        <li><a href="sign-up.html">Daftar</a></li>
-                                        <li><a href="sign-in.html">Masuk</a></li>
-                                        <li><a href="forgot-password.html">Lupa Password</a></li>
-                                        <li><a href="reset-password.html">Ganti Password</a></li>
-                                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                                        <li><a href="coming-soon.html">Coming Soon</a></li>
-                                        <li><a href="404.html">404 Error</a></li>
-                                        <li><a href="typography.html">Typography</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="about-us.html">Tentang Kami</a></li>
-                                <li><a href="contact.html">Kontak</a></li>
+                                <li><a href="tentang-kami.html">Tentang Kami</a></li>
+                                <li><a href="kontak.html">Kontak</a></li>
                             </ul>
                         </nav>
                         <!-- End Mainmanu Nav -->
                     </div>
                     <div class="header-action">
                         <ul class="action-list">
-                            <li class="axil-search d-xl-block d-none">
-                                <input type="search" class="placeholder product-search-input" name="search2"
-                                    id="search2" value="" maxlength="128" placeholder="Apa yang anda cari?"
-                                    autocomplete="off">
-                                <button type="submit" class="icon wooc-btn-search">
-                                    <i class="flaticon-magnifying-glass"></i>
-                                </button>
-                            </li>
                             <li class="axil-search d-xl-none d-block">
                                 <a href="javascript:void(0)" class="header-search-icon" title="Search">
                                     <i class="flaticon-magnifying-glass"></i>
                                 </a>
                             </li>
-                            <li class="wishlist">
-                                <a href="wishlist.html">
-                                    <i class="flaticon-heart"></i>
-                                </a>
-                            </li>
-                            <li class="shopping-cart">
-                                <a href="#" class="cart-dropdown-btn">
-                                    <span class="cart-count">3</span>
-                                    <i class="flaticon-shopping-cart"></i>
-                                </a>
-                            </li>
+                           
                             <li class="my-account">
                                 <a href="javascript:void(0)">
-                                    <i class="flaticon-person"></i>
+                                    <i class="fa-solid fa-bars"></i>
                                 </a>
                                 <div class="my-account-dropdown">
-                                    <span class="title">QUICKLINKS</span>
+                                    <span class="title">Menu Lainnya</span>
                                     <ul>
                                         <li>
-                                            <a href="my-account.html">Akun saya</a>
+                                            <a href="pendaftaran-produk.html">Pendaftaran Produk</a>
                                         </li>
                                         <li>
-                                            <a href="#">Bantuan</a>
+                                            <a href="kebijakan-privasi.html">Kebijakan Privasi</a>
                                         </li>
                                         <li>
-                                            <a href="#">Bahasa</a>
+                                            <a href="syarat-ketentuan.html">Syarat dan Ketentuan</a>
+                                        </li>
+                                        <li>
+                                            <a href="faq.html">FAQ</a>
                                         </li>
                                     </ul>
-                                    <div class="login-btn">
-                                        <a href="sign-in.html" class="axil-btn btn-bg-primary">Login</a>
-                                    </div>
-                                    <div class="reg-footer text-center">Belum punya akun? <a href="sign-up.html"
-                                            class="btn-link">DAFTAR</a></div>
+                                    
                                 </div>
                             </li>
                             <li class="axil-mobile-toggle">
@@ -194,17 +153,17 @@
                     <div class="col-lg-6 col-md-8">
                         <div class="inner">
                             <ul class="axil-breadcrumb">
-                                <li class="axil-breadcrumb-item"><a href="index.html">Beranda</a></li>
+                                <li class="axil-breadcrumb-item"><a href="index.html">Home</a></li>
                                 <li class="separator"></li>
-                                <li class="axil-breadcrumb-item active" aria-current="page">Belanja</li>
+                                <li class="axil-breadcrumb-item active" aria-current="page">My Account</li>
                             </ul>
-                            <h1 class="title">Jelajahi Semua Produk</h1>
+                            <h1 class="title">Lihat Semua Produk</h1>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-4">
                         <div class="inner">
                             <div class="bradcrumb-thumb">
-                                <img src="assets/images/product/product-45.png" alt="Image">
+                                <img src="assets/images/logo/tpt_1@4x.png" alt="Image">
                             </div>
                         </div>
                     </div>
@@ -223,45 +182,35 @@
                                 <button class="sidebar-close filter-close-btn"><i class="fas fa-times"></i></button>
                             </div>
                             <div class="toggle-list product-categories active">
-                                <h6 class="title">KATEGORI</h6>
+                                <h6 class="title">CATEGORIES</h6>
                                 <div class="shop-submenu">
                                     <ul>
-                                        <li class="current-cat"><a href="#">Makanan</a></li>
-                                        <li><a href="#">Minuman</a></li>
+
+                                        <li><a href="#">Makanan</a></li>
+                                        <li class="current-cat"><a href="#">Minuman</a></li>
                                         <li><a href="#">Pakaian</a></li>
-                                        <li><a href="#">Aksesoris</a></li>
-                                        <li><a href="#">Elektronik</a></li>
+
                                     </ul>
                                 </div>
                             </div>
 
-                            <div class="toggle-list product-size active">
-                                <h6 class="title">UKURAN </h6>
-                                <div class="shop-submenu">
-                                    <ul>
-                                        <li class="chosen"><a href="#">XS</a></li>
-                                        <li><a href="#">S</a></li>
-                                        <li><a href="#">M</a></li>
-                                        <li><a href="#">L</a></li>
-                                        <li><a href="#">XL</a></li>
-                                        <li><a href="#">XXL</a></li>
-                                        <li><a href="#">3XL</a></li>
-                                        <li><a href="#">4XL</a></li>
-                                    </ul>
-                                </div>
-                            </div>
+
+
+
                             <div class="toggle-list product-price-range active">
-                                <h6 class="title">HARGA</h6>
+                                <h6 class="title">Harga</h6>
                                 <div class="shop-submenu">
                                     <ul>
-                                        <li class="chosen"><a href="#">5.000</a></li>
-                                        <li><a href="#">50.000</a></li>
-                                        <li><a href="#">70.000</a></li>
-                                        <li><a href="#">8.000</a></li>
-                                        <li><a href="#">90.000</a></li>
-                                        <li><a href="#">95.000</a></li>
+                                        <li class="chosen"><a href="#">500</a></li>
+                                        <li><a href="#">100.000</a></li>
                                     </ul>
-
+                                    <form action="#" class="mt--25">
+                                        <div id="slider-range"></div>
+                                        <div class="flex-center mt--20">
+                                            <span class="input-range">Harga: </span>
+                                            <input type="text" id="amount" class="amount-range" readonly>
+                                        </div>
+                                    </form>
                                 </div>
                             </div>
                             <button class="axil-btn btn-bg-primary">All Reset</button>
@@ -292,22 +241,23 @@
                             </div>
                         </div>
                         <!-- End .row -->
+
                         <div class="row row--15">
                             <div class="col-xl-4 col-sm-6">
                                 <div class="axil-product product-style-one mb--30">
                                     <div class="thumbnail">
                                         <a href="single-product.html">
-                                            <img src="assets/images/product/electric/product-01.png"
+                                            <img src="assets/images/product/minuman/highland-roastery/mockup-hr-coffee-200g-peneli-removebg-preview.png"
                                                 alt="Product Images">
                                         </a>
                                         <div class="label-block label-right">
-                                            <div class="product-badget">10% OFF</div>
                                         </div>
                                         <div class="product-hover-action">
                                             <ul class="cart-action">
                                                 <li class="wishlist"><a href="wishlist.html"><i
                                                             class="far fa-heart"></i></a></li>
-                                                <li class="select-option"><a href="cart.html">Add to Cart</a></li>
+                                                <li class="select-option"><a href="cart.html">Masukkan Keranjang</a>
+                                                </li>
                                                 <li class="quickview"><a href="#" data-bs-toggle="modal"
                                                         data-bs-target="#quick-view-modal"><i
                                                             class="far fa-eye"></i></a></li>
@@ -316,11 +266,10 @@
                                     </div>
                                     <div class="product-content">
                                         <div class="inner">
-                                            <h5 class="title"><a href="single-product.html">3D™ wireless headset</a>
+                                            <h5 class="title"><a href="single-product.html">Kopi Papua</a>
                                             </h5>
                                             <div class="product-price-variant">
-                                                <span class="price current-price">$30</span>
-                                                <span class="price old-price">$30</span>
+                                                <span class="price current-price">Rp 100.000</span>
                                             </div>
                                         </div>
                                     </div>
@@ -331,14 +280,15 @@
                                 <div class="axil-product product-style-one mb--30">
                                     <div class="thumbnail">
                                         <a href="single-product.html">
-                                            <img src="assets/images/product/electric/product-02.png"
+                                            <img src="assets/images/product/minuman/highland-roastery/mockup-hr-coffee-200g-okhika-removebg-preview.png"
                                                 alt="Product Images">
                                         </a>
                                         <div class="product-hover-action">
                                             <ul class="cart-action">
                                                 <li class="wishlist"><a href="wishlist.html"><i
                                                             class="far fa-heart"></i></a></li>
-                                                <li class="select-option"><a href="cart.html">Add to Cart</a></li>
+                                                <li class="select-option"><a href="cart.html">Masukkan Keranjang</a>
+                                                </li>
                                                 <li class="quickview"><a href="#" data-bs-toggle="modal"
                                                         data-bs-target="#quick-view-modal"><i
                                                             class="far fa-eye"></i></a></li>
@@ -347,10 +297,9 @@
                                     </div>
                                     <div class="product-content">
                                         <div class="inner">
-                                            <h5 class="title"><a href="single-product.html">Media remote</a></h5>
+                                            <h5 class="title"><a href="single-product.html">KOPI PAPUA - OKHIKA</a></h5>
                                             <div class="product-price-variant">
-                                                <span class="price current-price">$40</span>
-                                                <span class="price old-price">$50</span>
+                                                <span class="price current-price">Rp 100.000</span>
                                             </div>
                                         </div>
                                     </div>
@@ -361,50 +310,17 @@
                                 <div class="axil-product product-style-one mb--30">
                                     <div class="thumbnail">
                                         <a href="single-product.html">
-                                            <img src="assets/images/product/electric/product-03.png"
-                                                alt="Product Images">
-                                        </a>
-                                        <div class="label-block label-right">
-                                            <div class="product-badget">25% OFF</div>
-                                        </div>
-                                        <div class="product-hover-action">
-                                            <ul class="cart-action">
-                                                <li class="wishlist"><a href="wishlist.html"><i
-                                                            class="far fa-heart"></i></a></li>
-                                                <li class="select-option"><a href="cart.html">Add to Cart</a></li>
-                                                <li class="quickview"><a href="#" data-bs-toggle="modal"
-                                                        data-bs-target="#quick-view-modal"><i
-                                                            class="far fa-eye"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="product-content">
-                                        <div class="inner">
-                                            <h5 class="title"><a href="single-product.html">HD camera</a></h5>
-                                            <div class="product-price-variant">
-                                                <span class="price current-price">$45</span>
-                                                <span class="price old-price">$60</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Single Product  -->
-                            <div class="col-xl-4 col-sm-6">
-                                <div class="axil-product product-style-one mb--30">
-                                    <div class="thumbnail">
-                                        <a href="single-product.html">
-                                            <img src="assets/images/product/electric/product-04.png"
+                                            <img src="assets/images/product/minuman/highland-roastery/mockup-hr-coffee-200g-kiwirok-removebg-preview.png"
                                                 alt="Product Images">
                                         </a>
                                         <div class="label-block label-right">
-                                            <div class="product-badget">5% OFF</div>
                                         </div>
                                         <div class="product-hover-action">
                                             <ul class="cart-action">
                                                 <li class="wishlist"><a href="wishlist.html"><i
                                                             class="far fa-heart"></i></a></li>
-                                                <li class="select-option"><a href="cart.html">Add to Cart</a></li>
+                                                <li class="select-option"><a href="cart.html">Masukkan Keranjang</a>
+                                                </li>
                                                 <li class="quickview"><a href="#" data-bs-toggle="modal"
                                                         data-bs-target="#quick-view-modal"><i
                                                             class="far fa-eye"></i></a></li>
@@ -413,10 +329,10 @@
                                     </div>
                                     <div class="product-content">
                                         <div class="inner">
-                                            <h5 class="title"><a href="single-product.html">Guys Bomber Jacket</a></h5>
+                                            <h5 class="title"><a href="single-product.html">KOPI PAPUA - KIWIROK</a>
+                                            </h5>
                                             <div class="product-price-variant">
-                                                <span class="price current-price">$50</span>
-                                                <span class="price old-price">$60</span>
+                                                <span class="price current-price">Rp 100.000</span>
                                             </div>
                                         </div>
                                     </div>
@@ -427,47 +343,18 @@
                                 <div class="axil-product product-style-one mb--30">
                                     <div class="thumbnail">
                                         <a href="single-product.html">
-                                            <img src="assets/images/product/electric/product-05.png"
-                                                alt="Product Images">
-                                        </a>
-                                        <div class="product-hover-action">
-                                            <ul class="cart-action">
-                                                <li class="wishlist"><a href="wishlist.html"><i
-                                                            class="far fa-heart"></i></a></li>
-                                                <li class="select-option"><a href="cart.html">Add to Cart</a></li>
-                                                <li class="quickview"><a href="#" data-bs-toggle="modal"
-                                                        data-bs-target="#quick-view-modal"><i
-                                                            class="far fa-eye"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="product-content">
-                                        <div class="inner">
-                                            <h5 class="title"><a href="single-product.html">Level 20 RGB Cherry</a></h5>
-                                            <div class="product-price-variant">
-                                                <span class="price current-price">$38</span>
-                                                <span class="price old-price">$50</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Single Product  -->
-                            <div class="col-xl-4 col-sm-6">
-                                <div class="axil-product product-style-one mb--30">
-                                    <div class="thumbnail">
-                                        <a href="single-product.html">
-                                            <img src="assets/images/product/electric/product-06.png"
+                                            <img src="assets/images/product/minuman/highland-roastery/mockup-hr-coffee-200g-okbab-removebg-preview.png"
                                                 alt="Product Images">
                                         </a>
                                         <div class="label-block label-right">
-                                            <div class="product-badget">5% OFF</div>
+
                                         </div>
                                         <div class="product-hover-action">
                                             <ul class="cart-action">
                                                 <li class="wishlist"><a href="wishlist.html"><i
                                                             class="far fa-heart"></i></a></li>
-                                                <li class="select-option"><a href="cart.html">Add to Cart</a></li>
+                                                <li class="select-option"><a href="cart.html">Masukkan Keranjang</a>
+                                                </li>
                                                 <li class="quickview"><a href="#" data-bs-toggle="modal"
                                                         data-bs-target="#quick-view-modal"><i
                                                             class="far fa-eye"></i></a></li>
@@ -476,10 +363,9 @@
                                     </div>
                                     <div class="product-content">
                                         <div class="inner">
-                                            <h5 class="title"><a href="single-product.html">Level 20 RGB Cherry</a></h5>
+                                            <h5 class="title"><a href="single-product.html">KOPI PAPUA - OKBAB</a></h5>
                                             <div class="product-price-variant">
-                                                <span class="price current-price">$25</span>
-                                                <span class="price old-price">$40</span>
+                                                <span class="price current-price">Rp 100.000</span>
                                             </div>
                                         </div>
                                     </div>
@@ -490,17 +376,47 @@
                                 <div class="axil-product product-style-one mb--30">
                                     <div class="thumbnail">
                                         <a href="single-product.html">
-                                            <img src="assets/images/product/electric/product-07.png"
+                                            <img src="assets/images/product/minuman/highland-roastery/mockup-hr-coffee-200g-tangma-removebg-preview.png"
+                                                alt="Product Images">
+                                        </a>
+                                        <div class="product-hover-action">
+                                            <ul class="cart-action">
+                                                <li class="wishlist"><a href="wishlist.html"><i
+                                                            class="far fa-heart"></i></a></li>
+                                                <li class="select-option"><a href="cart.html">Tambahkan Keranjang</a>
+                                                </li>
+                                                <li class="quickview"><a href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#quick-view-modal"><i
+                                                            class="far fa-eye"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product-content">
+                                        <div class="inner">
+                                            <h5 class="title"><a href="single-product.html">KOPI PAPUA</a></h5>
+                                            <div class="product-price-variant">
+                                                <span class="price current-price">Rp 100.000</span>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Product  -->
+                            <div class="col-xl-4 col-sm-6">
+                                <div class="axil-product product-style-one mb--30">
+                                    <div class="thumbnail">
+                                        <a href="single-product.html">
+                                            <img src="assets/images/product/minuman/highland-roastery/mockup-hr-coffee-200g-tiom-removebg-preview.png"
                                                 alt="Product Images">
                                         </a>
                                         <div class="label-block label-right">
-                                            <div class="product-badget">15% OFF</div>
                                         </div>
                                         <div class="product-hover-action">
                                             <ul class="cart-action">
                                                 <li class="wishlist"><a href="wishlist.html"><i
                                                             class="far fa-heart"></i></a></li>
-                                                <li class="select-option"><a href="cart.html">Add to Cart</a></li>
+                                                <li class="select-option"><a href="cart.html">Tambah Keranjang</a></li>
                                                 <li class="quickview"><a href="#" data-bs-toggle="modal"
                                                         data-bs-target="#quick-view-modal"><i
                                                             class="far fa-eye"></i></a></li>
@@ -509,10 +425,10 @@
                                     </div>
                                     <div class="product-content">
                                         <div class="inner">
-                                            <h5 class="title"><a href="single-product.html">Logitech Streamcam</a></h5>
+                                            <h5 class="title"><a href="single-product.html">Kopi Papua - Tiom</a></h5>
                                             <div class="product-price-variant">
-                                                <span class="price current-price">$15</span>
-                                                <span class="price old-price">$20</span>
+                                                <span class="price current-price">Rp 100.000</span>
+
                                             </div>
                                         </div>
                                     </div>
@@ -523,47 +439,16 @@
                                 <div class="axil-product product-style-one mb--30">
                                     <div class="thumbnail">
                                         <a href="single-product.html">
-                                            <img src="assets/images/product/electric/product-08.png"
-                                                alt="Product Images">
-                                        </a>
-                                        <div class="product-hover-action">
-                                            <ul class="cart-action">
-                                                <li class="wishlist"><a href="wishlist.html"><i
-                                                            class="far fa-heart"></i></a></li>
-                                                <li class="select-option"><a href="cart.html">Add to Cart</a></li>
-                                                <li class="quickview"><a href="#" data-bs-toggle="modal"
-                                                        data-bs-target="#quick-view-modal"><i
-                                                            class="far fa-eye"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="product-content">
-                                        <div class="inner">
-                                            <h5 class="title"><a href="single-product.html">Bass Meets Clarity</a></h5>
-                                            <div class="product-price-variant">
-                                                <span class="price current-price">$60</span>
-                                                <span class="price old-price">$80</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Single Product  -->
-                            <div class="col-xl-4 col-sm-6">
-                                <div class="axil-product product-style-one mb--30">
-                                    <div class="thumbnail">
-                                        <a href="single-product.html">
-                                            <img src="assets/images/product/electric/product-02.png"
+                                            <img src="assets/images/product/minuman/highland-roastery/mockup-hr-coffee-200g-kurima-removebg-preview.png"
                                                 alt="Product Images">
                                         </a>
                                         <div class="label-block label-right">
-                                            <div class="product-badget">30% OFF</div>
                                         </div>
                                         <div class="product-hover-action">
                                             <ul class="cart-action">
                                                 <li class="wishlist"><a href="wishlist.html"><i
                                                             class="far fa-heart"></i></a></li>
-                                                <li class="select-option"><a href="cart.html">Add to Cart</a></li>
+                                                <li class="select-option"><a href="cart.html">Tambah Keranjang</a></li>
                                                 <li class="quickview"><a href="#" data-bs-toggle="modal"
                                                         data-bs-target="#quick-view-modal"><i
                                                             class="far fa-eye"></i></a></li>
@@ -572,10 +457,72 @@
                                     </div>
                                     <div class="product-content">
                                         <div class="inner">
-                                            <h5 class="title"><a href="single-product.html">Media remote</a></h5>
+                                            <h5 class="title"><a href="single-product.html">Kurima</a></h5>
                                             <div class="product-price-variant">
-                                                <span class="price current-price">$40</span>
-                                                <span class="price old-price">$50</span>
+                                                <span class="price current-price">Rp 100.000</span>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Product  -->
+                            <div class="col-xl-4 col-sm-6">
+                                <div class="axil-product product-style-one mb--30">
+                                    <div class="thumbnail">
+                                        <a href="single-product.html">
+                                            <img src="assets/images/product/minuman/highland-roastery/mockup-hr-coffee-200g-sabin-removebg-preview.png"
+                                                alt="Product Images">
+                                        </a>
+                                        <div class="product-hover-action">
+                                            <ul class="cart-action">
+                                                <li class="wishlist"><a href="wishlist.html"><i
+                                                            class="far fa-heart"></i></a></li>
+                                                <li class="select-option"><a href="cart.html">Tambahkan Keranjang</a>
+                                                </li>
+                                                <li class="quickview"><a href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#quick-view-modal"><i
+                                                            class="far fa-eye"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product-content">
+                                        <div class="inner">
+                                            <h5 class="title"><a href="single-product.html">Kopi Papua - Sabin</a></h5>
+                                            <div class="product-price-variant">
+                                                <span class="price current-price">Rp 100.000</span>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Product  -->
+                            <div class="col-xl-4 col-sm-6">
+                                <div class="axil-product product-style-one mb--30">
+                                    <div class="thumbnail">
+                                        <a href="single-product.html">
+                                            <img src="assets/images/product/minuman/gavi drink/gavi_drink_profil-removebg-preview .png"
+                                                alt="Product Images">
+                                        </a>
+                                        <div class="label-block label-right">
+                                        </div>
+                                        <div class="product-hover-action">
+                                            <ul class="cart-action">
+                                                <li class="wishlist"><a href="wishlist.html"><i
+                                                            class="far fa-heart"></i></a></li>
+                                                <li class="select-option"><a href="cart.html">Tambah Keranjang</a></li>
+                                                <li class="quickview"><a href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#quick-view-modal"><i
+                                                            class="far fa-eye"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product-content">
+                                        <div class="inner">
+                                            <h5 class="title"><a href="single-product.html">Alpukat Kocok</a></h5>
+                                            <div class="product-price-variant">
+                                                <span class="price current-price">Rp 100.000</span>
                                             </div>
                                         </div>
                                     </div>
@@ -593,78 +540,54 @@
         </div>
         <!-- End Shop Area  -->
 
-        <!-- Start Axil Newsletter Area  -->
-        <div class="axil-newsletter-area axil-section-gap pt--0">
-            <div class="container">
-                <div class="etrade-newsletter-wrapper bg_image bg_image--5">
-                    <div class="newsletter-content">
-                        <span class="title-highlighter highlighter-primary2"><i
-                                class="fas fa-envelope-open"></i>Newsletter</span>
-                        <h2 class="title mb--40 mb_sm--30">Get weekly update</h2>
-                        <div class="input-group newsletter-form">
-                            <div class="position-relative newsletter-inner mb--15">
-                                <input placeholder="example@gmail.com" type="text">
-                            </div>
-                            <button type="submit" class="axil-btn mb--15">Subscribe</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End .container -->
-        </div>
-        <!-- End Axil Newsletter Area  -->
+
     </main>
 
 
     <div class="service-area">
         <div class="container">
-            <div class="row row-cols-xl-4 row-cols-sm-2 row-cols-1 row--20">
+            <div class="section-title-wrapper section-title-center">
+                <span class="title-highlighter highlighter-secondary"><i class="fal fa-thumbs-up"></i>Mengapa
+                    Kami?</span>
+                <h2 class="title">Mengapa Orang Memilih Kami</h2>
+            </div>
+            <div class="row row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 row--20">
                 <div class="col">
-                    <div class="service-box service-style-2">
-                        <div class="icon">
-                            <img src="./assets/images/icons/service1.png" alt="Service">
-                        </div>
-                        <div class="content">
-                            <h6 class="title">Fast &amp; Secure Delivery</h6>
-                            <p>Tell about your service.</p>
-                        </div>
+
+                    <div class="icon">
+                        <img src="./assets/images/icons/whychoose/expres delivery.jpg" alt="Service">
                     </div>
-                </div>
-                <div class="col">
-                    <div class="service-box service-style-2">
-                        <div class="icon">
-                            <img src="./assets/images/icons/service2.png" alt="Service">
-                        </div>
-                        <div class="content">
-                            <h6 class="title">Money Back Guarantee</h6>
-                            <p>Within 10 days.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="service-box service-style-2">
-                        <div class="icon">
-                            <img src="./assets/images/icons/service3.png" alt="Service">
-                        </div>
-                        <div class="content">
-                            <h6 class="title">24 Hour Return Policy</h6>
-                            <p>No question ask.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="service-box service-style-2">
-                        <div class="icon">
-                            <img src="./assets/images/icons/service4.png" alt="Service">
-                        </div>
-                        <div class="content">
-                            <h6 class="title">Pro Quality Support</h6>
-                            <p>24/7 Live support.</p>
-                        </div>
-                    </div>
+                    <h6 class="title">Cepat &amp; Pengiriman Aman</h6>
                 </div>
             </div>
+            <div class="col">
+
+
+            </div>
         </div>
+        <div class="col">
+            <div class="service-box">
+                <div class="icon">
+                    <img src="./assets/images/icons/whychoose/scan_me_qr_code.jpg" alt="Service">
+                </div>
+                <h6 class="title">Metode Pembayaran <br> Menggunakan QRIS</h6>
+            </div>
+        </div>
+        <div class="col">
+
+
+        </div>
+    </div>
+    <div class="col">
+        <div class="service-box">
+            <div class="icon">
+                <img src="./assets/images/icons/whychoose/premium_certified_quality_stamp.jpg" alt="Service">
+            </div>
+            <h6 class="title">Jaminan Produk <br> Berkualitas</h6>
+        </div>
+    </div>
+    </div>
+    </div>
     </div>
     <!-- Start Footer Area  -->
     <footer class="axil-footer-area footer-style-2">
