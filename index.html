@@ -26,6 +26,9 @@
     <link rel="stylesheet" href="assets/css/vendor/base.css">
     <link rel="stylesheet" href="assets/css/style.min.css">
 
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 
@@ -47,6 +50,7 @@
                                     Indonesia
                                 </button>
                                 <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">English</a></li>
                                     <li><a class="dropdown-item" href="#">Indonesia</a></li>
                                 </ul>
                             </div>
@@ -57,6 +61,7 @@
                                 </button>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="#">RP</a></li>
+                                    <li><a class="dropdown-item" href="#">USD</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -64,8 +69,8 @@
                     <div class="col-lg-6 col-sm-6 col-12">
                         <div class="header-top-link">
                             <ul class="quick-link">
-                                <li><a href="register.html">Pendaftaran Produk</a></li>
-                                <li><a href="sign-in.html">Masuk</a></li>
+                                <li style="padding: 8px;"><a href="#" class="fs-1"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li style="padding: 8px;"><a href="#" class="fs-1"><i class="fa-brands fa-facebook"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -96,40 +101,15 @@
                             </div>
                             <ul class="mainmenu">
                                 <li><a href="index.html">Beranda</a></li>
-                                <li><a href="shop-sidebar.html">Belanja</a></li>
-                                <li class="menu-item-has-children">
-                                    <a href="#">Halaman</a>
-                                    <ul class="axil-submenu">
-                                        <li><a href="wishlist.html">Daftar Suka</a></li>
-                                        <li><a href="cart.html">Keranjang</a></li>
-                                        <li><a href="checkout.html">Checkout</a></li>
-                                        <li><a href="my-account.html">Akun</a></li>
-                                        <li><a href="sign-up.html">Daftar</a></li>
-                                        <li><a href="sign-in.html">Masuk</a></li>
-                                        <li><a href="forgot-password.html">Lupa Password</a></li>
-                                        <li><a href="reset-password.html">Ganti Password</a></li>
-                                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                                        <li><a href="coming-soon.html">Coming Soon</a></li>
-                                        <li><a href="404.html">404 Error</a></li>
-                                        <li><a href="typography.html">Typography</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="about-us.html">Tentang Kami</a></li>
-                                <li><a href="contact.html">Kontak</a></li>
+                                <li><a href="belanja.html">Belanja</a></li>
+                                <li><a href="tentang-kami.html">Tentang Kami</a></li>
+                                <li><a href="kontak.html">Kontak</a></li>
                             </ul>
                         </nav>
                         <!-- End Mainmanu Nav -->
                     </div>
                     <div class="header-action">
                         <ul class="action-list">
-                            <li class="axil-search d-xl-block d-none">
-                                <input type="search" class="placeholder product-search-input" name="search2"
-                                    id="search2" value="" maxlength="128" placeholder="Apa yang anda cari?"
-                                    autocomplete="off">
-                                <button type="submit" class="icon wooc-btn-search">
-                                    <i class="flaticon-magnifying-glass"></i>
-                                </button>
-                            </li>
                             <li class="axil-search d-xl-none d-block">
                                 <a href="javascript:void(0)" class="header-search-icon" title="Search">
                                     <i class="flaticon-magnifying-glass"></i>
@@ -138,22 +118,22 @@
 
                             <li class="my-account">
                                 <a href="javascript:void(0)">
-                                    <i class="flaticon-person"></i>
+                                    <i class="fa-solid fa-bars"></i>
                                 </a>
                                 <div class="my-account-dropdown">
-                                    <span class="title">QUICKLINKS</span>
+                                    <span class="title">Menu Lainnya</span>
                                     <ul>
                                         <li>
-                                            <a href="register.html">Pendaftaran Produk</a>
+                                            <a href="pendaftaran-produk.html">Pendaftaran Produk</a>
                                         </li>
                                         <li>
-                                            <a href="privacy-policy.html">Kebijakan Privasi</a>
+                                            <a href="kebijakan-privasi.html">Kebijakan Privasi</a>
                                         </li>
                                         <li>
-                                            <a href="terms-of-service.html">Syaran dan Ketentuan</a>
+                                            <a href="syarat-ketentuan.html">Syarat dan Ketentuan</a>
                                         </li>
                                         <li>
-                                            <a href="FAQ.html">FAQ</a>
+                                            <a href="faq.html">FAQ</a>
                                         </li>
                                     </ul>
 
@@ -185,8 +165,9 @@
                             <span class="subtitle"><i class="fas fa-fire"></i>Produk Terbaru minggu ini</span>
                             <h1 class="title">Kopi Papua</h1>
                             <div class="shop-btn">
-                                <a href="https://wa.me/6285254192448" class="axil-btn btn-bg-white right-icon"><i
-                                        class="flaticon-shopping-cart"></i> Beli Produk </a>
+                                <a href="https://wa.link/4xxduw" target="_blank" class="axil-btn btn-bg-white right-icon">
+                                    <i class="flaticon-shopping-cart"></i> Beli Produk 
+                                </a>
                             </div>
                         </div>
                     </div>
